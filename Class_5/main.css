@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.navigation {
+    margin: 10px auto;
+    padding: 10px 10px;
+    background: rgb(202, 161, 161);
+}
+.nav-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 15px 0px;
+    background: rgb(75, 90, 60);
+}
+#nav-btn{
+    margin: 10px 15px;
+    background: rgb(202, 161, 161);
+    padding: 15px 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+#nav-btn:hover {
+    background: rgb(110, 53, 53);
+    color: aliceblue;
+}
