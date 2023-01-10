@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    text-align: center;    
+    color: #82a5ca;
+    font-family: 'Orbitron', sans-serif;
+}
+.banner{
+    background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
+    background-size: cover;
+    padding: 10px 0 100px 0px;
+}
+/* .dot is used for class*/
+.btn-banner {
+    margin: 10px 10px;
+    border: none;
+    padding: 10px 10px;
+    font-family:  inherit;
+    color: #82a5ca;
+    font-weight: 800px;
+}
+.cta{
+    border-bottom: 4px solid white;
+}
+/* # is used for id*/
+#main-logo{
+    width: 180px;
+
+}
+#title {    
+    text-shadow: -1px 1px 3px black;
+    padding-top: 50px;
+}
