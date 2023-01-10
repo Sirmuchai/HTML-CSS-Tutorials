@@ -1,4 +1,4 @@
 # HTML-CSS-Tutorials
 We will be giving tutorials on HTML and CSS
 
-Class 1: Creating a Google Search Page
+* <b>Class 1:</b> Creating a Google Search Page
