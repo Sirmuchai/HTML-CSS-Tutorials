@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    background: #92a2a2;
+}
+.par-div {
+    position: absolute;
+    height: 200px;
+    padding: 10px;
+    background-color: #81adc8;
+
+}
+.main-div {
+    position: relative;
+    left: 10px;
+    bottom:10px;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+
+.side-div {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #81adc8;
+}
+
+htnl {
+    height: 500px;
+}
