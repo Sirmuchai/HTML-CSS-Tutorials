@@ -58,7 +58,7 @@ div {
 }
 
 #footer-txt {
-    padding: 10px 0px;
+    padding: 20px 0px;
     font-family: inherit;
     text-align: center;
 }
@@ -126,4 +126,25 @@ ul li a {
     transition: all 0.5s ease;
     font-size: 20px;
 }
+
+.footer-col .social-icon a:hover{
+    color: #23A6F0;
+    background-color: #fff;
+}
+
+/*Responsive*/
+@media(max-width 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width 674px){
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
 
