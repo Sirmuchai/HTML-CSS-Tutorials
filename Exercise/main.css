@@ -22,7 +22,7 @@ header {
     width: 100%;
     background-image: url("back.jpg");
     background-size: cover;   
-    background-color: #252B42;
+    background-color: #252B42;    
 }
 
 .nav-bar {    
@@ -78,7 +78,7 @@ header {
 }
 
 .nav-btn {
-    background-color: rgba(35, 166, 240, 1);
+    background-color: #23A6F0;
     color: #fff;
     font-weight: bold;
     padding: 10px 8px;
@@ -87,7 +87,7 @@ header {
     cursor:pointer;
     transition: all 0.3s ease 0s;
 }
-#nav-btn:hover {
+.nav-btn:hover {
     background-color: rgba(35, 166, 240, 0.8);
 }
 .nav-btn-2 {
@@ -154,6 +154,27 @@ header {
     font-size: 14px;
     font-weight: 700;
     line-height: 22px; 
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+.col-md-4 {
+
+}
+
+.card {
+
+}
+
+
+.bordered {
+    border: 2px solid #23A6F0;
+    padding: 10px;    
 }
 
 
