@@ -14,8 +14,14 @@ body {
     padding: 0px;
     box-sizing: border-box;
 }
+div {
+    display: block;
+}
 
-header {
+header {    
+    width: 100%;
+    background-image: url("back.jpg");
+    background-size: cover;   
     background-color: #252B42;
 }
 
@@ -43,7 +49,6 @@ header {
     border-radius: 10px;
 
 }
-
 .nav-logo{
     margin-right: 50px;
 }
@@ -72,7 +77,7 @@ header {
     color: #23A6F0;
 }
 
-#nav-btn {
+.nav-btn {
     background-color: rgba(35, 166, 240, 1);
     color: #fff;
     font-weight: bold;
@@ -85,10 +90,72 @@ header {
 #nav-btn:hover {
     background-color: rgba(35, 166, 240, 0.8);
 }
-
-div {
-    display: block;
+.nav-btn-2 {
+    background: transparent;
+    color: #23A6F0;
+    padding: 10px 8px;
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
 }
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    padding: 5% auto; 
+}
+
+
+.banner-cta {
+    margin: 40px 33%;
+    text-align: center;
+    padding: 10px;
+    place-items: 40px;
+}
+
+.banner-cta h1, p {
+    color: #fff;
+}
+.banner-cta h4 {
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.banner-cta h1 {
+    font-size: 58px;
+    font-weight: 700px;
+
+}
+.banner-cta p{
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+.banner-cta h1 {
+    color: #fff;
+}
+
+
+
+.banner-btn {
+    margin: 40px auto;
+}
+.banner-btn button {
+    margin: auto 2px;
+    padding: 15px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px; 
+}
+
+
+
 
 .footer-site {
     position: sticky;
