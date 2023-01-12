@@ -22,9 +22,9 @@ header {
 .nav-bar {    
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items:center;
-    padding: 10px auto;
+    padding: 10px 10%;
 }
 .nav-bar div {
     margin: 10px auto;
