@@ -15,6 +15,71 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    background-color: #252B42;
+}
+
+.nav-bar {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 10px auto;
+}
+.nav-bar div {
+    margin: 10px auto;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 10px; 
+}
+
+.nav-links li a {
+    padding: 5px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    background-color: #23A6F0;
+    border-radius: 10px;
+
+}
+
+.nav-logo h1 {
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+}
+.nav-cta div {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav-cta .nav-login li a{
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-cta .nav-login li a:hover{
+    color: #23A6F0;
+}
+
+#nav-btn {
+    background-color: rgba(35, 166, 240, 1);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+#nav-btn:hover {
+    background-color: rgba(35, 166, 240, 0.8);
+}
+
 div {
     display: block;
 }
@@ -134,14 +199,14 @@ ul li a {
 
 /*Responsive*/
 @media(max-width 767px){
-    .footer-col{
+    .footer-col .nav-bar{
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
 @media(max-width 674px){
-    .footer-col{
+    .footer-col .nav-bar{
         width: 100%;
         margin-bottom: 30px;
     }
