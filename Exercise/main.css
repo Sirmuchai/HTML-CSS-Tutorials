@@ -112,7 +112,8 @@ header {
 
 
 .banner-cta {
-    margin: 40px 33%;
+    margin: 40px 25%;
+    margin: 40px 25%;
     text-align: center;
     padding: 10px;
     place-items: 40px;
@@ -272,14 +273,14 @@ ul li a {
 }
 
 /*Responsive*/
-@media(max-width 767px){
+@media(max-width: 767px) {
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
-@media(max-width 674px){
+@media(max-width: 674px) {
     .footer-col {
         width: 100%;
         margin-bottom: 30px;
