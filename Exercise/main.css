@@ -118,7 +118,7 @@ header {
     place-items: 40px;
 }
 
-.banner-cta h1, p {
+.banner-cta h1{
     color: #fff;
 }
 .banner-cta h4 {
@@ -133,6 +133,7 @@ header {
 
 }
 .banner-cta p{
+    color: #fff;
     font-size: 20px;
     font-weight: 400px;
 
