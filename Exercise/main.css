@@ -22,13 +22,11 @@ header {
 .nav-bar {    
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items:center;
-    padding: 10px 10%;
+    padding: 30px 10%;
 }
-.nav-bar div {
-    margin: 10px auto;
-}
+
 .nav-links li {
     display: inline-block;
     padding: 0px 10px; 
@@ -46,14 +44,22 @@ header {
 
 }
 
+.nav-logo{
+    margin-right: 50px;
+}
+
 .nav-logo h1 {
     cursor: pointer;
     color: #fff;
     font-weight: 700;
 }
+.nav-cta{
+    margin-left:auto;
+}
+
 .nav-cta div {
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0px 10px;    
 }
 
 .nav-cta .nav-login li a{
@@ -199,17 +205,18 @@ ul li a {
 
 /*Responsive*/
 @media(max-width 767px){
-    .footer-col .nav-bar{
+    .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
 @media(max-width 674px){
-    .footer-col .nav-bar{
+    .footer-col {
         width: 100%;
         margin-bottom: 30px;
     }
+
 }
 
 
