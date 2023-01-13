@@ -12,15 +12,15 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class="nav-bar">
             <div class="nav-logo">
                 <h1>BrandName</h1>            
             </div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#service">Product</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -47,32 +47,66 @@
                     <button class="nav-btn-2">Learn More</button>
                 </div>
             </div>         
-        </div>
-        <div class="row bordered">
-            <div class="col-md-4 bordered ">
-                <div class="card bordered">
-
-                </div>
-            </div>
-            <div class="col-md-4 bordered">
-                <div class="card bordered">
-
-                </div>
-            </div>
-            <div class="col-md-4 bordered">
-                <div class="card bordered">
-
-                </div>
-            </div>
-            <div class="col-md-4 bordered">
-                <div class="card bordered">
-
-                </div>
-            </div>
-        </div>
+        </div>        
     </header>
-
     <main>
+        <section class="service" id="service">
+            <div class="title">
+                <h1> Our Service </h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="images/serv-1.jpg" alt="First Service">
+                    <h4>Service 1</h4>
+                    <p> Lorem</p>
+                    <a href="#" class="nav-btn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="images/serv-3.jpg" alt="Second Service">
+                    <h4>Service 2</h4>
+                    <p> Lorem</p>
+                    <a href="#" class="nav-btn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="images/serv-2.jpg" alt="Third Service">
+                    <h4>Service 3</h4>
+                    <p> Lorem</p>
+                    <a href="#" class="nav-btn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="images/serv-4.jpeg" alt="Fourth Service">
+                    <h4>Service 4</h4>
+                    <p> Lorem</p>
+                    <a href="#" class="nav-btn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="images/serv-1.jpg" alt="First Service">
+                    <h4>Service 1</h4>
+                    <p> Lorem</p>
+                    <a href="#" class="nav-btn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="images/serv-3.jpg" alt="Second Service">
+                    <h4>Service 2</h4>
+                    <p> Lorem</p>
+                    <a href="#" class="nav-btn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="images/serv-2.jpg" alt="Third Service">
+                    <h4>Service 3</h4>
+                    <p> Lorem</p>
+                    <a href="#" class="nav-btn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="images/serv-4.jpeg" alt="Fourth Service">
+                    <h4>Service 4</h4>
+                    <p> Lorem</p>
+                    <a href="#" class="nav-btn">Learn More</a>
+                </div>
+            </div>
+
+        </section>
 
     </main>
     <footer class="footer-site">
@@ -115,11 +149,11 @@
 						<li><a href="#">API</a></li>
 					</ul>	
                 </div>                  
-            </div> 
-            <div class="footer-bottom">
-                <p id="footer-txt">Made with love by Sity Communication @2023</p>
-            </div>  
-        </section>              
+            </div>                          
+        </section> 
+        <div class="footer-bottom">
+            <p id="footer-txt">Made with love by Sity Communication @2023</p>
+        </div>                     
     </footer>
 </body>
 </html>
