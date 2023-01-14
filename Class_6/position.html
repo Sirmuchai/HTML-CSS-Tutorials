@@ -3,24 +3,138 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>CSS Position Turorial</title>
+    <title>One Page Website</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" type="text/css" media="screen" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
     <script src='main.js'></script>
 </head>
 <body>
-    <div class="par-div">
-        <div class="side-div">
-            <p>I am a side element</p>
-        </div>
-        <div class="main-div">
-            <p>I am the main Element</p>
+    <header id="home">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <h1>BrandName</h1>            
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#service">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-cta">
+                <div class="nav-login">
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="nav-btn">Join Us <i class="fa-solid fa-arrow-right"></i></button>
+                </div>                                 
+            </div>
+        </div> 
 
-        </div>
-        <div class="side-div">
-            <p>I am a side element as well</p>
-
-        </div>
-    </div>    
+        <div class="banner flex-center">
+            <div class="banner-cta flex-center">
+                <h4>Welcome</h4>
+                <h1>Selling on the intenert like a pro</h1>
+                <p>We know how large object will act, buth things on a small scale just do not act that way.</p>
+                <div class="banner-btn">
+                    <button class="nav-btn">Get Quote Now</button>
+                    <button class="nav-btn-2">Learn More</button>
+                </div>
+            </div>         
+        </div>        
+    </header>
+    <main>
+        <section class="service" id="service">
+            <div class="title">
+                <h1> Our Service </h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h4>Web Design</h4>
+                        <p> Lorem ipsum dolor sit amet. In repudiandae nobis qui reiciendis architecto qui magni recusandae sit dolorem molestiae quo eveniet harum est molestiae praesentium.</p>
+                        <a href="#" class="nav-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h4>Cyber Security</h4>
+                        <p> Lorem ipsum dolor sit amet. In repudiandae nobis qui reiciendis architecto qui magni recusandae sit dolorem molestiae quo eveniet harum est molestiae praesentium.</p>
+                        <a href="#" class="nav-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col">
+                    
+                    <div>
+                        <h4>Networking</h4>
+                        <p> Lorem ipsum dolor sit amet. In repudiandae nobis qui reiciendis architecto qui magni recusandae sit dolorem molestiae quo eveniet harum est molestiae praesentium.</p>
+                        <a href="#" class="nav-btn">Learn More</a>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div>
+                        <h4>Marketing</h4>
+                        <p> Lorem ipsum dolor sit amet. In repudiandae nobis qui reiciendis architecto qui magni recusandae sit dolorem molestiae quo eveniet harum est molestiae praesentium.</p>
+                        <a href="#" class="nav-btn">Learn More</a>
+                    </div>
+                </div>                
+            </div>
+        </section>
+    </main>
+    <footer class="footer-site">
+        <section class="footer-container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h2 class="footer-title">Get In Touch</h2>
+                    <p>The quick fox jump over the lazy dog The quick fox jump over the lazy dog</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>                        
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h2 class="footer-title">Company info</h2>
+                    <ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Carrier</a></li>
+						<li><a href="#">We are Hiring</a></li>
+						<li><a href="#">Blog</a></li>
+                    </ul>
+                </div>  
+                <div class="footer-col">
+                    <h2 class="footer-title">Features</h2>
+                    <ul>
+                        <li><a href="#">Business Marketing</a></li>
+                        <li><a href="#">User Analytic</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                        <li><a href="#">Unlimited Support</a></li>
+                    </ul>
+                </div>  
+                <div class="footer-col">
+                    <h2 class="footer-title">Resources</h2>
+					<ul>
+						<li><a href="#">IOS & Android</a></li>
+						<li><a href="#">Watch a Demo</a></li>
+						<li><a href="#">Customer</a></li>
+						<li><a href="#">API</a></li>
+					</ul>	
+                </div>                  
+            </div>                          
+        </section> 
+        <div class="footer-bottom">
+            <p id="footer-txt">Made with love by Sity Communication @2023</p>
+        </div>                     
+    </footer>
 </body>
+</html>
 </html>

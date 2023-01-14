@@ -10,13 +10,11 @@ body {
     overflow-x: hidden;
 }
 
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-div {
-    display: block;
 }
 
 header {    
@@ -25,6 +23,7 @@ header {
     background-size: cover;   
     background-color: #252B42;    
 }
+
 .active {
     color: #23A6F0;
 }
@@ -96,7 +95,6 @@ header {
 .nav-btn-2 {
     background: transparent;
     color: #23A6F0;
-    padding: 10px 8px;
     border: 1px solid #23A6F0;
     border-radius: 5px;
     cursor:pointer;
@@ -173,19 +171,26 @@ header {
  }
 
 
-.row{
-    background-color: #d9dfe2;
+.row {    
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #d9dfe2;
+    padding: 10px;    
 }
 
-.col {
-    padding: 20px;
-    
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 200px;
+    background-color: #e9dfe2;
+    padding: 10px;
+          
 }
 .col img {
-    width: 250px;
+    width: 200px;
 }
 
 .bordered {
