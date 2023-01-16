@@ -314,6 +314,9 @@ ul li a {
     .row .col {
         max-width: 250px;
     }
+    .nav-cta div {
+        display: flex;
+    }    
     
 }
 
