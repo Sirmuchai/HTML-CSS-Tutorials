@@ -48,7 +48,7 @@
                             <a href="#" class="nav-link">Pricing</a>
                         </li>
                         <li class="nav-item ms-5 d-none d-md-inline">
-                            <a href="#" class="btn btn-secondary"><i class="bi bi-person-lines-fill me-2"></i>Join Us</a>
+                            <a href="#contact" class="btn btn-secondary"><i class="bi bi-person-lines-fill me-2"></i>Join Us</a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +61,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-5 text-center text-md-start">
                         <h1>
-                            <div class="display-2">
+                            <div class="display-2 fw-bold">
                                 Black-Belt
                             </div>
                             <div class="display-5 text-muted">
@@ -86,7 +86,7 @@
         <section class="bg-light" id="pricing">
             <div class="container-lg">
                 <div class="text-center">
-                    <h2><i class="bi bi-wallet-fill me-2"></i>Pricing Plans</h2>
+                    <h2 class="display-5 fw-bold"><i class="bi bi-wallet-fill me-2"></i>Pricing Plans</h2>
                     <p class="lead text-muted">
                         Choose a pricing plan to suit you.
                     </p>
@@ -140,7 +140,7 @@
         <section id="topics">
             <div class="container-md">
                 <div class="text-center">
-                    <h2>Inside the Book...</h2>
+                    <h2 class="display-5 fw-bold">Inside the Book...</h2>
                     <p class="lead text-muted"> A quick glance at the topics you'll learn</p>
                 </div>
 
@@ -196,8 +196,56 @@
                                 </div>
                             </div>
                         </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2 class="display-5 fw-bold">Get In Touch</h2>
+                    <p class="lead">Questions to ask? Fill out the form.</p>
+                </div>
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-8">
+                        <form>
+                            <label for="email" class="form-label">Email address:</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-person-fill"></i>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="e.g example@mail.com">
+                            </div>
+                            <label for="name" class="form-label">Name:</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-person-fill"></i>
+                                </span>
+                                <input type="name" class="form-control" id="name" placeholder="e.g Morio">
+                            </div>
+                            <label for="subject" class="form-label">What is your question about?</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-chat-right-dots-fill"></i>
+                                </span>
+                                <select id="subject" class="form-select">
+                                    <option value="pricing" selected>Pricing</option>
+                                    <option value="content" >Content query</option>
+                                    <option value="other">Other query</option>
+                                </select>
+                            </div>
+                            <div class="form-floating mb-4 mt-5">
+                                <textarea class="form-control" name="query" id="query" style="height: 150px;" ></textarea>
+                                <label for="query">Your query...</label>
+                            </div>
+
+                            <div class="mb-4 text-center">
+                                <button type="submit" class="btn btn-secondary">Submit</button>
+                            </div>
+
+                        </form>
                     </div>
-                    
                 </div>
             </div>
         </section>
